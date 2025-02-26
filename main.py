@@ -1,7 +1,7 @@
 from datetime import datetime
 from flask import Flask, render_template, request, redirect, url_for, send_file, send_from_directory
 import os
-from google.cloud import speech, language_v2
+from google.cloud import speech, language
 from google.protobuf import wrappers_pb2
 from google.cloud import texttospeech_v1
 
