@@ -139,4 +139,4 @@ def scripts_js():
     return send_file('./script.js')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8082)
+    app.run(debug=True, port=8080)
